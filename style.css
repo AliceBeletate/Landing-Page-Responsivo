@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* margin: 44px 0 40px 76px; */
+    margin-top: 47px;
+    margin-left: 42px ;
+}
+
+.link-header {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #37474f;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 32px;
+    letter-spacing: 0.875px;
+    cursor: pointer;
+}
+
+.link-header:hover {
+    transition: 0.5s;
+    color: #912ea2;
+}
+
+button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    width: 124px;
+    height: 51px;
+    background-color: #ba68c8;
+    border: none;
+    border-radius: 20px;
+    /* margin-left: 40px; */
+    cursor: pointer;
+}
+
+button:hover {
+    transition: 0.5s;
+    background-color: #912ea2;
+}
+
+section {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+}
+
+.img-logo {
+    width: 595px;
+    height: 500px;
+    display: inline-block;
+    margin-left: 125px;
+    margin: 70px 0 0 123px;
+}
+
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    /* width: 582px;
+    height: 164px; */
+    color: #161A49;
+}
+
+p {
+    color: #4B505A;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    /* width: 493px; */
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+
+}
+
+
+#learn-more {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ba68c8;
+    background: transparent;
+    /* width: 112px;
+    height: 27px; */
+    cursor: pointer;
+    border: none;
+    
+}
+
+#learn-more:hover {
+    transition: 0.5s;
+    color: #912ea2;
+}
+
+
+@media screen and (max-width: 900px) {
+    .link-header {
+        display: none;
+    }
+
+    button {
+        margin-left: 420px;
+        
+    }
+
+    h1, p {
+        text-align: center;
+        width: 100%;
+    }
+    
+    #learn-more {
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+    }
+
+    .img-logo {
+        position: relative;
+        top: 400px;
+        /* margin: 50px 40px; */
+    }
+
+
+    section {
+        position: relative;
+        bottom: 550px;
+    }
+}
